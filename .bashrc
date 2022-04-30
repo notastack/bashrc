@@ -155,6 +155,7 @@ alias aliasg='alias | grep'
 alias aliasl='alias | less'
 alias www='w3m'
 alias catg='catg(){ cat $1 | grep $2; }; catg'
+alias snipe='snipe(){ savepoint ; cd $1 ; rm $2 ; returnsave }; smipe'
 alias ainstall='sudo apt install -y'
 alias aremove='sudo apt remove -y'
 alias fizzbuzz='for i in {1..100}; do

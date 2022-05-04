@@ -148,6 +148,7 @@ alias dcoud='docker-compose up -d'
 alias dockercompose='sudo docker-compose'
 alias docker-compose='sudo docker-compose'
 alias dockercompose='sudo docker-compose'
+alias dcor='dcod ; dcoud
 
 # fun
 alias unix='cowsay -f gnu "Unix is love, Unix is life" | lolcat'

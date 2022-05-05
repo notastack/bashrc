@@ -131,6 +131,7 @@ alias mkcd='mkdircd(){ mkdir $1; cd $1; }; mkdircd'
 alias cdls='cdls(){ cd $1; ls; }; cdls'
 alias cdrm='cdrm(){ cd ..; rm $1; }; cdrm'
 alias catg='catg(){ cat $1 | grep $2; }; catg'
+alias backup='backup(){ cp $1 "$1".bak }; backup'
 alias snipe='snipe(){ savepoint ; cd $1 ; rm $2 ; returnsave }; smipe'
 alias cx='chmod +x'
 alias rm='sudo rm -I -v -d -r'
@@ -166,6 +167,7 @@ alias animation='docker ps ; savepoint ; gotop ; cd ~ ; pwd ; cd / ; pwd ; ls ; 
 alias weather='curl wttr.in/'
 alias quotec='while (true) ; do cowquote & sleep 7 ; done'
 alias lmfao='echo lmfao'
+alias nethack='telnet nethack.alt.org'
 
 # simplify
 alias sd='sudo'

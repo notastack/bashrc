@@ -149,7 +149,7 @@ alias dcoud='docker-compose up -d'
 alias dockercompose='sudo docker-compose'
 alias docker-compose='sudo docker-compose'
 alias dockercompose='sudo docker-compose'
-alias dcor='dcod ; dcoud
+alias dcor='dcod ; dcoud'
 
 # fun
 alias unix='cowsay -f gnu "Unix is love, Unix is life" | lolcat'
@@ -223,6 +223,12 @@ alias gco='git commit'
 alias gp='git push'
 alias gb='git branch'
 alias gs='git status'
+
+#everyday stuff
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
 
 # interview question
 alias fizzbuzz='for i in {1..100}; do

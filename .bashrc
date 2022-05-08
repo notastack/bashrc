@@ -95,6 +95,8 @@ alias ls='ls -a -h -l --color=auto'
 alias lsg='ls | grep'
 alias lsf='ls -a -h -l *.*'
 alias lsl='ls -lhFA | less'
+alias lsu='lsusb'
+alias udev='udevadm monitor --udev'
 
 # network
 alais gg='ping google.com'

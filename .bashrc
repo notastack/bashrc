@@ -153,6 +153,25 @@ alias docker-compose='sudo docker-compose'
 alias dockercompose='sudo docker-compose'
 alias dcor='dcod ; dcoud'
 
+#kubernetes
+alias k="kubectl"
+alias ka="kubectl apply -f"
+alias kpa="kubectl patch -f"
+alias ked="kubectl edit"
+alias ksc="kubectl scale"
+alias kex="kubectl exec -i -t"
+alias kg="kubectl get"
+alias kga="kubectl get all"
+alias kgall="kubectl get all --all-namespaces"
+alias kinfo="kubectl cluster-info"
+alias kdesc="kubectl describe"
+alias ktp="kubectl top"
+alias klo="kubectl logs -f"
+alias kn="kubectl get nodes"
+alias kpv="kubectl get pv"
+alias kpvc="kubectl get pvc"
+
+
 # fun
 alias unix='cowsay -f gnu "Unix is love, Unix is life" | lolcat'
 alias apple='cowsay -f sheep "I love macos" | lolcat'

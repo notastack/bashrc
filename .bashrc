@@ -117,6 +117,8 @@ alias privip='ip addr | grep 192.168 ; ip addr | grep 10.'
 alias www='w3m'
 alias toron='systemctl start tor.service'
 alias toroff='systemctl stop tor.service'
+alias serve='python -m SimpleHTTPServer'
+alias ports='sudo netstat -tulanp'
 
 # files
 alias savepoint='pwd > ~/.path && echo path saved to $(pwd)'
@@ -152,6 +154,14 @@ alias dockercompose='sudo docker-compose'
 alias docker-compose='sudo docker-compose'
 alias dockercompose='sudo docker-compose'
 alias dcor='dcod ; dcoud'
+alias dl="sudo docker ps -l -q"
+alias dps="sudo docker ps"
+alias di="sudo docker images"
+alias dip="sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
+alias dkd="sudo docker run -d -P"
+alias dki="sudo docker run -i -t -P"
+alias dex="sudo docker exec -i -t"
+alias drmf='sudo docker stop $(sudo docker ps -a -q) && sudo docker rm $(sudo docker ps -a -q)'
 
 #kubernetes
 alias k="kubectl"
@@ -226,6 +236,8 @@ alias aliasl='alias | less'
 alias his='history'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias crone='sudo vim /etc/crontab'
+lias totalusage='df -hl --total | grep total'
+alias most='du -hsx * | sort -rh | head -10'
 
 # video
 alias listvideos='ls | egrep -i $VIDEO_TYPE | sort -h'

@@ -199,6 +199,7 @@ alias weather='curl wttr.in/'
 alias quotec='while (true) ; do cowquote & sleep 7 ; done'
 alias lmfao='echo lmfao'
 alias nethack='telnet nethack.alt.org'
+alias lol='tableflip ; tabledown'
 
 # simplify
 alias sd='sudo'

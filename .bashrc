@@ -200,6 +200,7 @@ alias quotec='while (true) ; do cowquote & sleep 7 ; done'
 alias lmfao='echo lmfao'
 alias nethack='telnet nethack.alt.org'
 alias lol='tableflip ; tabledown'
+alias funky='funky(){ $1 | lolcat }; funky'
 
 # simplify
 alias sd='sudo'

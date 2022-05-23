@@ -99,7 +99,7 @@ alias lsu='lsusb'
 alias udev='udevadm monitor --udev'
 
 # network
-alais gg='ping google.com'
+alias gg='ping google.com'
 alias localhost='w3m localhost'
 alias dnsup='savepoint ; cd ~/Documents/docker/pihole ; sudo docker-compose up -d ; returnsave'
 alias dnsdown='savepoint ; cd ~/Documents/docker/pihole ; sudo docker-compose down ; returnsave'

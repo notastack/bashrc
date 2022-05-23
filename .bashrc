@@ -271,21 +271,21 @@ alias fizzbuzz='for i in {1..100}; do
     echo -n "$i"
     
     if (( i % 3 == 0 )); then # or if (( i / 3 * 3 == i )); then
-        echo -ne "\\rFizz" # \r deletes the line
-        three="1" # bool, divisible by 3
+        echo -ne "\\rFizz"
+        three="1"
 	sleep 1
     fi
     
     if (( i % 5 == 0 )); then
         if (( three )); then
-            echo -ne "Buzz" # add to Fizz
+            echo -ne "Buzz"
         else
-            echo -ne "\\rBuzz" # delete the line
+            echo -ne "\\rBuzz"
         fi
 	sleep 1
     fi
     
-    echo # newline
+    echo
     
     three=""
 

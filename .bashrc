@@ -265,6 +265,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
+alias spa='/home/workpad/spa/SPA/spa.sh'
 
 # interview question
 alias fizzbuzz='for i in {1..100}; do

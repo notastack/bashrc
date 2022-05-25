@@ -119,6 +119,7 @@ alias toron='systemctl start tor.service'
 alias toroff='systemctl stop tor.service'
 alias serve='python -m SimpleHTTPServer'
 alias ports='sudo netstat -tulanp'
+alias sshweb:'ssh root@lesueurclement.com'
 
 # files
 alias savepoint='pwd > ~/.path && echo path saved to $(pwd)'

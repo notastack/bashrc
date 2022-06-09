@@ -140,6 +140,11 @@ alias bak='backup(){ cp $1 "$1".bak }; backup'
 alias snipe='snipe(){ savepoint ; cd $1 ; rm $2 ; returnsave }; smipe'
 alias cx='chmod +x'
 alias rm='sudo rm -I -v -d -r'
+alias ariska='if [ -f "$1" ]; then
+echo "File exists"
+else
+echo "File does not exist"
+fi'
 
 # docker
 alias docekr='sudo docker'

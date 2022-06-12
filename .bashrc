@@ -145,6 +145,14 @@ echo "File exists"
 else
 echo "File does not exist"
 fi'
+alias ndir='
+if [ -d "$1" ]
+then
+echo "Directory exist"
+else
+`mkdir $1`
+echo "$1 created"
+fi'
 
 # docker
 alias docekr='sudo docker'

@@ -279,6 +279,7 @@ alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
 alias spa='/home/workpad/spa/SPA/spa.sh'
+alias bashv='bash --version'
 
 # interview question
 alias fizzbuzz='for i in {1..100}; do

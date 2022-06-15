@@ -153,6 +153,7 @@ else
 `mkdir $1`
 echo "$1 created"
 fi'
+alias mv='mv -f -v'
 
 # docker
 alias docekr='sudo docker'

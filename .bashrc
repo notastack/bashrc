@@ -159,6 +159,7 @@ else
 echo "$1 created"
 fi'
 alias mv='mv -f -v'
+alias whereami='pwd'
 alias cleanout=
 
 # docker

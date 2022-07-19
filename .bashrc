@@ -139,6 +139,11 @@ alias ..='cl ../..'
 alias ...='cl ../../..'
 alias ....='cl ../../../..'
 alias .....='cl ../../../../..'
+alias .1='cl ..'
+alias .2='cl ../..'
+alias .3='cl ../../..'
+alias .4='cl ../../../..'
+alias .5='cl ../../../../..'
 alias cp='echo jeffreyepstein ; sudo cp -d -r'
 alias mkdir='mkdir -v'
 alias mkcd='mkdircd(){ mkdir $1; cd $1; }; mkdircd'
@@ -164,7 +169,7 @@ echo "$1 created"
 fi'
 alias mv='mv -f -v'
 alias whereami='pwd'
-alias cleanout=
+alias cleanout=''
 
 # docker
 alias docekr='sudo docker'

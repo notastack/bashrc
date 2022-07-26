@@ -97,6 +97,7 @@ alias lsf='ls -a -h -l *.*'
 alias lsl='ls -lhFA | less'
 alias lsu='lsusb'
 alias udev='udevadm monitor --udev'
+alias lsp='ls | lolcat'
 
 # network
 alias gg='ping google.com'

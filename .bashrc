@@ -2,6 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+set -o vi
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -268,6 +269,9 @@ alias s='sudo '
 alias yd='youtube-dl'
 alias q='exit'
 alias vim='sudo vim'
+alias fck='sudo !!'
+alias fcks='!!:s/'
+alias fckn='fckn(){ sudo !-$1 }; smipe'
 
 # troubleshoot
 alias hisg='history | grep'
@@ -275,6 +279,7 @@ alias aliase='vim ~/.bashrc'
 alias aliasg='alias | grep'
 alias aliasl='alias | less'
 alias his='history'
+alias hisv='vim ~/.bash_history'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias crone='sudo vim /etc/crontab'
 alias totalusage='df -hl --total | grep total'

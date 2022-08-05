@@ -246,6 +246,7 @@ alias nethack='telnet nethack.alt.org'
 alias lol='tableflip ; tabledown'
 alias funky='funky(){ echo $1 | lolcat }; funky'
 alias dealwithit="echo '(•_•)' ; echo '( •_•)>⌐■-■' ; echo '(⌐■_■)' ; sleep 1 ; echo '(▀̿Ĺ̯▀̿ ̿)'"
+alias train='sl | lolcat'
 
 # simplify
 alias sd='sudo'

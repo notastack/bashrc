@@ -1,5 +1,7 @@
 # bashrc
 
+deprecated
+
 Some bash aliases to help you work faster.
 
 /*
